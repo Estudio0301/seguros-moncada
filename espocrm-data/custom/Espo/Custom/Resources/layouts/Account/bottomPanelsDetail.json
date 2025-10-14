@@ -1,0 +1,31 @@
+{
+    "activities": {
+        "disabled": true
+    },
+    "history": {
+        "disabled": true
+    },
+    "_delimiter_": {
+        "disabled": true
+    },
+    "_tabBreak_1": {
+        "index": 0,
+        "tabBreak": true,
+        "tabLabel": "$Account"
+    },
+    "contacts": {
+        "index": 1
+    },
+    "documents": {
+        "index": 2
+    },
+    "_tabBreak_0": {
+        "index": 3,
+        "tabBreak": true,
+        "tabLabel": "$Stream"
+    },
+    "stream": {
+        "sticked": false,
+        "index": 4
+    }
+}

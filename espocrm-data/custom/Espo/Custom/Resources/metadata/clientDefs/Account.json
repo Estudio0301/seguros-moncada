@@ -1,0 +1,15 @@
+{
+    "kanbanViewMode": false,
+    "color": "#55984e",
+    "iconClass": "fas fa-building",
+    "relationshipPanels": {
+        "contacts": {
+            "layout": "listForAccount",
+            "selectPrimaryFilterName": null
+        },
+        "contacts1": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

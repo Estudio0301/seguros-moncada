@@ -1,0 +1,66 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "cIDContacto"
+                },
+                {
+                    "name": "account"
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "cNoDeIdentidad"
+                },
+                {
+                    "name": "cRtn"
+                }
+            ],
+            [
+                {
+                    "name": "cFechaDeNacimiento"
+                },
+                {
+                    "name": "cEstadoCivil"
+                }
+            ],
+            [
+                {
+                    "name": "cOcuapacin"
+                },
+                {
+                    "name": "cEmpresaDondeLabora"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "phoneNumber"
+                },
+                {
+                    "name": "emailAddress"
+                }
+            ],
+            [
+                {
+                    "name": "addressStreet"
+                },
+                {
+                    "name": "addressCity"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

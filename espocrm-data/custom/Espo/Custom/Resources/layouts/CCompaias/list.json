@@ -1,0 +1,23 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "contactoCot",
+        "width": 16
+    },
+    {
+        "name": "contactoP",
+        "width": 16
+    },
+    {
+        "name": "contReclamos",
+        "width": 16
+    },
+    {
+        "name": "teams",
+        "width": 16,
+        "notSortable": true
+    }
+]

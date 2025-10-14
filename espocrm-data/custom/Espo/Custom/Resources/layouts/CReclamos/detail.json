@@ -1,0 +1,29 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "indentificador"
+                },
+                {
+                    "name": "iDPliza"
+                }
+            ],
+            [
+                {
+                    "name": "fechaDeReclamo"
+                },
+                {
+                    "name": "estadoDeReclamo"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

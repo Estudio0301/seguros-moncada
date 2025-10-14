@@ -1,0 +1,19 @@
+{
+    "fields": {
+        "cIDContacto": "ID Contacto",
+        "cFechaDeNacimiento": "Fecha de Nacimiento",
+        "cEstadoCivil": "Estado Civil",
+        "cOcuapacin": "Ocuapación / Profesión",
+        "cEmpresaDondeLabora": "Empresa donde Labora",
+        "cNoDeIdentidad": "No. de Identidad",
+        "cRTN": "RTN"
+    },
+    "options": {
+        "cEstadoCivil": {
+            "Soltero/a": "Soltero/a",
+            "Casado/a": "Casado/a",
+            "Union Libre": "Union Libre",
+            "Separado/a": "Separado/a"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "labels": {
+        "Create Account": "Crear Negocio"
+    },
+    "fields": {
+        "cIDCliente": "IDCliente",
+        "cEstado": "Estado",
+        "cEtapa": "Etapa",
+        "cContacts1": "Contacts1"
+    },
+    "options": {
+        "cEstado": {
+            "Nuevo": "Nuevo",
+            "Negociación": "Negociación",
+            "Activo": "Activo",
+            "Cerrado": "Cerrado"
+        },
+        "cEtapa": {
+            "Prospección": "Prospección",
+            "Calificación": "Calificación",
+            "Cotización": "Cotización",
+            "Negociación": "Negociación",
+            "Ganado": "Ganado",
+            "Perdido": "Perdido"
+        }
+    },
+    "links": {
+        "cContacts1": "Contacts1"
+    }
+}

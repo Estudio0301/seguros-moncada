@@ -1,0 +1,71 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "cIDCliente"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "industry"
+                },
+                {
+                    "name": "cEtapa"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "phoneNumber"
+                },
+                {
+                    "name": "billingAddressCity"
+                }
+            ],
+            [
+                {
+                    "name": "billingAddressStreet"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "customLabel": "Contacto y Dirección"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Detalles"
+    }
+]

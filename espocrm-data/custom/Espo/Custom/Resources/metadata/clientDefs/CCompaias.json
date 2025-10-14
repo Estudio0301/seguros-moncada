@@ -1,0 +1,9 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#607a61",
+    "iconClass": "fas fa-money-check-dollar",
+    "kanbanViewMode": false
+}

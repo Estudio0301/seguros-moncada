@@ -1,0 +1,14 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "cdigoCorredor",
+        "width": 20
+    },
+    {
+        "name": "contactoCot",
+        "width": 20
+    }
+]

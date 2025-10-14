@@ -1,0 +1,23 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "indentificador",
+        "width": 16
+    },
+    {
+        "name": "iDPliza",
+        "width": 16
+    },
+    {
+        "name": "createdBy",
+        "width": 16
+    },
+    {
+        "name": "teams",
+        "width": 16,
+        "notSortable": true
+    }
+]

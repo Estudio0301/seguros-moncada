@@ -1,0 +1,81 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "lastName",
+        "width": 16
+    },
+    {
+        "name": "cRTN",
+        "width": 16
+    },
+    {
+        "name": "account",
+        "width": 25
+    },
+    {
+        "name": "accounts",
+        "width": 16,
+        "notSortable": true
+    },
+    {
+        "name": "addressStreet",
+        "width": 16
+    },
+    {
+        "name": "cEmpresaDondeLabora",
+        "width": 16
+    },
+    {
+        "name": "cEstadoCivil",
+        "width": 16
+    },
+    {
+        "name": "cFechaDeNacimiento",
+        "width": 16
+    },
+    {
+        "name": "cOcuapacin",
+        "width": 16
+    },
+    {
+        "name": "cNoDeIdentidad",
+        "width": 16
+    },
+    {
+        "name": "cRtn",
+        "width": 16
+    },
+    {
+        "name": "cIDContacto",
+        "width": 16
+    },
+    {
+        "name": "address",
+        "width": 16
+    },
+    {
+        "name": "createdBy",
+        "width": 16
+    },
+    {
+        "name": "createdAt",
+        "width": 16
+    },
+    {
+        "name": "addressCity",
+        "width": 16
+    },
+    {
+        "name": "emailAddress",
+        "width": 20,
+        "notSortable": true
+    },
+    {
+        "name": "phoneNumber",
+        "width": 18,
+        "notSortable": true
+    }
+]

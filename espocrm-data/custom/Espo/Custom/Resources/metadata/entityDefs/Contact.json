@@ -1,0 +1,74 @@
+{
+    "collection": {
+        "countDisabled": false,
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "emailAddress"
+        ],
+        "fullTextSearch": false
+    },
+    "optimisticConcurrencyControl": false,
+    "fields": {
+        "cIDContacto": {
+            "type": "autoincrement",
+            "autoincrement": true,
+            "unique": true,
+            "isCustom": true
+        },
+        "cFechaDeNacimiento": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true
+        },
+        "cEstadoCivil": {
+            "type": "enum",
+            "options": [
+                "Soltero/a",
+                "Casado/a",
+                "Union Libre",
+                "Separado/a"
+            ],
+            "default": "Soltero/a",
+            "style": {
+                "Soltero/a": null,
+                "Casado/a": null,
+                "Union Libre": null,
+                "Separado/a": null
+            },
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "cOcuapacin": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "cEmpresaDondeLabora": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "cNoDeIdentidad": {
+            "type": "varchar",
+            "required": true,
+            "maxLength": 15,
+            "options": [],
+            "isCustom": true
+        },
+        "cRTN": {
+            "type": "varchar",
+            "maxLength": 16,
+            "options": [],
+            "isCustom": true
+        }
+    },
+    "links": {
+        "accounts": {
+            "audited": false
+        }
+    }
+}

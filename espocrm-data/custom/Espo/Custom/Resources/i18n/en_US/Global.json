@@ -1,0 +1,22 @@
+{
+    "scopeNames": {
+        "CCotizaciones": "Cotización",
+        "CPliza": "Póliza",
+        "CCompaias": "Compañia",
+        "CReclamos": "Reclamo",
+        "CEntidades": "Entidad",
+        "CCobro": "Cobro",
+        "CRamo": "Ramo",
+        "CExpediente": "Expediente"
+    },
+    "scopeNamesPlural": {
+        "CCotizaciones": "Cotizaciones",
+        "CPliza": "Pólizas",
+        "CCompaias": "Compañias",
+        "CReclamos": "Reclamos",
+        "CEntidades": "Entidades",
+        "CCobro": "Cobros",
+        "CRamo": "Ramos",
+        "CExpediente": "Expedientes"
+    }
+}

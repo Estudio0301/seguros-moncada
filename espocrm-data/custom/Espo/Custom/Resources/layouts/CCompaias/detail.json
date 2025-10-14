@@ -1,0 +1,45 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "cdigoCorredor"
+                }
+            ],
+            [
+                {
+                    "name": "contactoCot"
+                },
+                {
+                    "name": "correoCot"
+                }
+            ],
+            [
+                {
+                    "name": "contReclamos"
+                },
+                {
+                    "name": "correoReclamos"
+                }
+            ],
+            [
+                {
+                    "name": "contactoP"
+                },
+                {
+                    "name": "correoP"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

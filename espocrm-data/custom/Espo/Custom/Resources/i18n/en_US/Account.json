@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "cIDCliente": "IDCliente",
+        "cEstado": "Estado",
+        "cEtapa": "Etapa"
+    },
+    "options": {
+        "cEstado": {
+            "Nuevo": "Nuevo",
+            "Negociación": "Negociación",
+            "Activo": "Activo",
+            "Cerrado": "Cerrado"
+        },
+        "cEtapa": {
+            "Prospección": "Prospección",
+            "Calificación": "Calificación",
+            "Cotización": "Cotización",
+            "Negociación": "Negociación",
+            "Ganado": "Ganado",
+            "Perdido": "Perdido"
+        }
+    }
+}

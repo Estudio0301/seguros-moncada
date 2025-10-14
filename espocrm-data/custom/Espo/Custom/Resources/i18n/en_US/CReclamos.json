@@ -1,0 +1,20 @@
+{
+    "fields": {
+        "indentificador": "Indentificador",
+        "fechaDeReclamo": "Fecha de Reclamo",
+        "iDPliza": "ID Póliza",
+        "estadoDeReclamo": "Estado de reclamo"
+    },
+    "links": [],
+    "labels": {
+        "Create CReclamos": "Create Reclamo"
+    },
+    "options": {
+        "estadoDeReclamo": {
+            "Resuelto": "Resuelto",
+            "En Pausa": "En pausa",
+            "Documentación": "Documentación",
+            "Iniciado": "Iniciado"
+        }
+    }
+}

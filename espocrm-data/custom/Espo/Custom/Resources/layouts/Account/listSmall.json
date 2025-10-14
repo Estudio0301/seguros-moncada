@@ -1,0 +1,14 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "billingAddressCity",
+        "width": 20
+    },
+    {
+        "name": "billingAddressStreet",
+        "width": 20
+    }
+]

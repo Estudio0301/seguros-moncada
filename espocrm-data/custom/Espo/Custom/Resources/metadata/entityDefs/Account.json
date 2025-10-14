@@ -1,0 +1,74 @@
+{
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "emailAddress"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": true,
+    "fields": {
+        "cIDCliente": {
+            "type": "autoincrement",
+            "autoincrement": true,
+            "unique": true,
+            "isCustom": true
+        },
+        "billingAddressCountry": {
+            "readOnly": true,
+            "audited": true
+        },
+        "cEstado": {
+            "type": "enum",
+            "required": true,
+            "options": [
+                "Nuevo",
+                "Negociación",
+                "Activo",
+                "Cerrado"
+            ],
+            "style": {
+                "Nuevo": null,
+                "Negociación": null,
+                "Activo": null,
+                "Cerrado": null
+            },
+            "default": "Nuevo",
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "cEtapa": {
+            "type": "enum",
+            "options": [
+                "Prospección",
+                "Calificación",
+                "Cotización",
+                "Negociación",
+                "Ganado",
+                "Perdido"
+            ],
+            "default": "Prospección",
+            "displayAsLabel": true,
+            "labelType": "state",
+            "audited": true,
+            "style": {
+                "Prospección": null,
+                "Calificación": null,
+                "Cotización": "primary",
+                "Negociación": "warning",
+                "Ganado": "success",
+                "Perdido": "info"
+            },
+            "maxLength": 100,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "contacts": {
+            "audited": false
+        }
+    }
+}

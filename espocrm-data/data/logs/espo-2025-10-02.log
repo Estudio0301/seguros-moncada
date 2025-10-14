@@ -1,0 +1,2 @@
+[2025-10-02 19:40:02] ERROR: (2002) Uncaught Exception PDOException: "SQLSTATE[HY000] [2002] Connection refused" at /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php line 73 :: /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php(73)
+[2025-10-02 19:41:16] ERROR: (2002) Uncaught Exception PDOException: "SQLSTATE[HY000] [2002] Connection refused" at /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php line 73 :: /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php(73)

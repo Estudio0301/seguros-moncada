@@ -1,0 +1,78 @@
+[
+    {
+        "name": "cIDCliente",
+        "width": 20,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "width": 80,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "cEtapa",
+        "width": 16
+    },
+    {
+        "name": "assignedUser",
+        "width": 16
+    },
+    {
+        "name": "phoneNumber",
+        "width": 16
+    },
+    {
+        "name": "modifiedBy",
+        "width": 16
+    },
+    {
+        "name": "modifiedAt",
+        "width": 16
+    },
+    {
+        "name": "industry",
+        "width": 16
+    },
+    {
+        "name": "website",
+        "width": 25,
+        "notSortable": true
+    },
+    {
+        "name": "type",
+        "width": 16
+    },
+    {
+        "name": "description",
+        "width": 16
+    },
+    {
+        "name": "createdBy",
+        "width": 16
+    },
+    {
+        "name": "createdAt",
+        "width": 16
+    },
+    {
+        "name": "emailAddress",
+        "width": 16
+    },
+    {
+        "name": "shippingAddressCity",
+        "width": 16
+    },
+    {
+        "name": "billingAddressCity",
+        "width": 16
+    },
+    {
+        "name": "billingAddressCountry",
+        "width": 18
+    },
+    {
+        "name": "billingAddressStreet",
+        "width": 16
+    }
+]

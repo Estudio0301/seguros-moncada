@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "cdigoCorredor": "Código Corredor",
+        "contactoCot": "Contacto Cot",
+        "correoCot": "Correo Cot",
+        "contReclamos": "Cont Reclamos",
+        "correoReclamos": "Correo Reclamos",
+        "contactoP": "Contacto P",
+        "correoP": "Correo P"
+    },
+    "links": [],
+    "labels": {
+        "Create CCompaias": "Crear Compañia"
+    }
+}
