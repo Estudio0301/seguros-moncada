@@ -32,7 +32,7 @@ services:
       ESPOCRM_ADMIN_USERNAME: admin
       # Cambia esta contraseña por una segura para el login de administrador
       ESPOCRM_ADMIN_PASSWORD: tu_contraseña_admin_espo
-      ESPOCRM_SITE_URL: "http://localhost:8080"
+      ESPOCRM_SITE_URL: "http://seguros-moncada.duckdns.org:8080"
     volumes:
       - ./espocrm-data:/var/www/html
     restart: always
