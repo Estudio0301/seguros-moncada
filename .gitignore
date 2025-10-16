@@ -1,9 +1,4 @@
-data/config.php
-data/config-internal.php
-
-data/backup/
 data/cache/
 data/export/
 data/logs/
-data/upload/
 data/upgrade/
