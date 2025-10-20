@@ -5,10 +5,10 @@ services:
     container_name: espocrm-db
     environment:
       # ¡IMPORTANTE! Cambia estas contraseñas por unas seguras.
-      MARIADB_ROOT_PASSWORD: tu_contraseña_root_super_secreta
+      MARIADB_ROOT_PASSWORD: bruciNe-eclaiR-improvisEs
       MARIADB_DATABASE: espocrm
       MARIADB_USER: espocrm
-      MARIADB_PASSWORD: tu_contraseña_db_super_secreta
+      MARIADB_PASSWORD: bruciNe-eclaiR-improvisEs
     volumes:
       - espocrm-db:/var/lib/mysql
     restart: always
@@ -27,10 +27,8 @@ services:
       ESPOCRM_DATABASE_PLATFORM: Mysql
       ESPOCRM_DATABASE_HOST: espocrm-db
       ESPOCRM_DATABASE_USER: espocrm
-      # Usa la misma contraseña que definiste arriba para MARIADB_PASSWORD
-      ESPOCRM_DATABASE_PASSWORD: tu_contraseña_db_super_secreta
+      ESPOCRM_DATABASE_PASSWORD: bruciNe-eclaiR-improvisEs
       ESPOCRM_ADMIN_USERNAME: admin
-      # Cambia esta contraseña por una segura para el login de administrador
       ESPOCRM_ADMIN_PASSWORD: tu_contraseña_admin_espo
       ESPOCRM_SITE_URL: "http://148.230.90.114:8080"
     volumes:
