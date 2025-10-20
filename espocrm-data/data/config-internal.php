@@ -31,7 +31,7 @@ return [
   ],
   'adminUpgradeDisabled' => false,
   'isInstalled' => true,
-  'microtimeInternal' => 1755628497.424888,
+  'microtimeInternal' => 1760960727.888841,
   'cryptKey' => 'dde3c221f89818bfe8933cbce49daa14',
   'hashSecretKey' => 'bce761b46cc4a7dafdae71af23563f97',
   'defaultPermissions' => [
@@ -42,5 +42,6 @@ return [
   'actualDatabaseVersion' => '12.0.2',
   'instanceId' => '5af95da9-4c24-491c-b383-292b3a01f8c0',
   'webSocketZeroMQSubmissionDsn' => 'tcp://espocrm-websocket:7777',
-  'webSocketZeroMQSubscriberDsn' => 'tcp://*:7777'
+  'webSocketZeroMQSubscriberDsn' => 'tcp://*:7777',
+  'webSocketPort' => 8081
 ];

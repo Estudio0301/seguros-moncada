@@ -4,13 +4,15 @@ services:
     image: mariadb:latest
     container_name: espocrm-db
     environment:
-      # ¡IMPORTANTE! Cambia estas contraseñas por unas seguras.
-      MARIADB_ROOT_PASSWORD: bruciNe-eclaiR-improvisEs
-      MARIADB_DATABASE: espocrm
-      MARIADB_USER: espocrm
-      MARIADB_PASSWORD: bruciNe-eclaiR-improvisEs
+      MARIADB_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MARIADB_DATABASE: ${MYSQL_DATABASE}
+      MARIADB_USER: ${MYSQL_USER}
+      MARIADB_PASSWORD: ${MYSQL_PASSWORD}
     volumes:
+      # Volumen persistente para los datos de la BD
       - espocrm-db:/var/lib/mysql
+      # Monta el script .sql para la importación inicial
+      - ./init-db:/docker-entrypoint-initdb.d
     restart: always
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
@@ -26,12 +28,13 @@ services:
     environment:
       ESPOCRM_DATABASE_PLATFORM: Mysql
       ESPOCRM_DATABASE_HOST: espocrm-db
-      ESPOCRM_DATABASE_USER: espocrm
-      ESPOCRM_DATABASE_PASSWORD: bruciNe-eclaiR-improvisEs
+      ESPOCRM_DATABASE_USER: ${MYSQL_USER}
+      ESPOCRM_DATABASE_PASSWORD: ${MYSQL_PASSWORD}
       ESPOCRM_ADMIN_USERNAME: admin
-      ESPOCRM_ADMIN_PASSWORD: tu_contraseña_admin_espo
-      ESPOCRM_SITE_URL: "http://148.230.90.114:8080"
+      ESPOCRM_ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+      ESPOCRM_SITE_URL: ${SITE_URL}
     volumes:
+      # Volumen persistente para los archivos de la aplicación (custom, uploads, data)
       - ./espocrm-data:/var/www/html
     restart: always
     depends_on:
@@ -48,6 +51,8 @@ services:
       - ./espocrm-data:/var/www/html
     restart: always
     entrypoint: docker-daemon.sh
+    depends_on:
+      - espocrm
 
   # Servicio de WebSocket para notificaciones en tiempo real
   espocrm-websocket:
@@ -55,16 +60,17 @@ services:
     container_name: espocrm-websocket
     environment:
       ESPOCRM_CONFIG_USE_WEB_SOCKET: "true"
-      ESPOCRM_CONFIG_WEB_SOCKET_URL: "ws://localhost:8081"
-      ESPOCRM_CONFIG_WEB_SOCKET_ZERO_M_Q_SUBSCRIBER_DSN: "tcp://*:7777"
-      ESPOCRM_CONFIG_WEB_SOCKET_ZERO_M_Q_SUBMISSION_DSN: "tcp://espocrm-websocket:7777"
+      ESPOCRM_CONFIG_WEB_SOCKET_URL: ${WEBSOCKET_URL}
+      ESPOCRM_CONFIG_WEB_SOCKET_PORT: 8081
+      ESPOCRM_CONFIG_WEB_SOCKET_SSL: "false"
     volumes:
       - ./espocrm-data:/var/www/html
-    restart: always
-    entrypoint: docker-websocket.sh
     ports:
-      - "8081:8080"
+      - "8081:8081"
+    restart: always
+    depends_on:
+      - espocrm
 
+# Definición del volumen nombrado para la base de datos
 volumes:
   espocrm-db:
-  espocrm:

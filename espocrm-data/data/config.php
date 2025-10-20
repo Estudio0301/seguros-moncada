@@ -292,8 +292,8 @@ return [
     0 => 'youtube.com',
     1 => 'google.com'
   ],
-  'cacheTimestamp' => 1760424308,
-  'microtime' => 1760424308.326818,
+  'cacheTimestamp' => 1760960728,
+  'microtime' => 1760960728.012685,
   'siteUrl' => 'http://localhost:8080',
   'fullTextSearchMinLength' => 4,
   'appTimestamp' => 1755628490,
@@ -311,5 +311,6 @@ return [
   'emailAddressIsOptedOutByDefault' => false,
   'workingTimeCalendarName' => NULL,
   'workingTimeCalendarId' => NULL,
-  'latestVersion' => '9.2.2'
+  'latestVersion' => '9.2.2',
+  'webSocketSsl' => false
 ];
